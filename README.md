@@ -11,7 +11,7 @@
 
 Upload your image and discover which Bollywood celebrity you resemble the most! Using state-of-the-art face detection and feature extraction techniques, this app provides a fun and accurate matching experience.
 
-![Celebrity Look-Alike Demo](demo_image.gif)
+![s1](https://github.com/user-attachments/assets/6f0beb13-95bc-4834-8cc1-9cf4a5c72099)
 
 ---
 
@@ -74,18 +74,20 @@ The process includes:
 2. **Feature Extraction**: ResNet50 (without the top layer) is used to extract features from the face.
 3. **Cosine Similarity**: The extracted features are compared with the celebrity dataset using cosine similarity to find the closest match.
 
+---
+
+![s2](https://github.com/user-attachments/assets/726fa727-82f9-48ff-8177-f81464d5113d)
+
+
+---
+
 #### Model Structure
 - **ResNet50**: Used to extract facial features.
 - **MTCNN**: Multi-task Cascaded Convolutional Networks for accurate face detection.
 
-![Model Flowchart](model_flowchart.png)
 
 ---
 
-### 🎥 Demo Video
-[![Watch the Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
-
----
 
 ### 📄 License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
@@ -95,9 +97,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ### 📬 Contributing
 We welcome contributions! Feel free to submit pull requests to help improve this project.
 ```
-
-### Instructions:
-- Replace placeholders like `YOUR_VIDEO_ID`, `https://github.com/YourUsername/celebrity-lookalike.git`, and images like `demo_image.gif` and `model_flowchart.png` with your actual content.
-- Add any specific usage notes or troubleshooting if needed.
-  
-This README format provides a clean, professional look for your project and includes visuals, badges, and organized sections to make it user-friendly and informative!
